@@ -13,22 +13,31 @@
 
     Ensure the containers are running
 
-- Access the Kafka UI at http://localhost:8080
-
 
 # Kafka Python Client (Simple Producer & Consumer)
 
+- Start Your Docker Containers
+    ```
+    docker-compose up -d
+    ```
+    
 - Install the dependencies
     ```
-    pip install -r requirements.txt
+    pip install kafka-python
+    ```
+    
+- Create Topics
+    ```
+    python examples/create_topics.py
+    ```
+    
+- Run Data Generator (Terminal 1)
+    ```
+    python examples/data_generator.py
     ```
 
-- Run the producer
+- Run Consumer Transformer (Terminal 2)
     ```
-    python examples/main.py producer
+    python examples/consumer_transformer.py
     ```
-
-- Run the consumer
-    ```
-    python examples/main.py consumer test-group-python
-    ```
+- Access the Kafka UI at http://localhost:8080 to check the pipeline results

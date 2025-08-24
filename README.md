@@ -16,47 +16,6 @@
 - Access the Kafka UI at http://localhost:8080
 
 
-# Kafka CLI Commands
-
-- Open a shell inside the container
-    ```
-    docker exec -it kafka bash
-    ```
-
-- List topics
-    ```
-    kafka-topics.sh --bootstrap-server localhost:19092 --list
-    ```
-
-- Create a topic
-    ```
-    kafka-topics.sh --bootstrap-server localhost:19092 --create \
-    --topic test-topic \
-    --partitions 3 \
-    --replication-factor 1
-    ```
-
-- Describe the topic
-    ```
-    kafka-topics.sh --bootstrap-server localhost:19092 --describe --topic test-topic
-    ```
-
-- Produce messages
-    ```
-    kafka-console-producer.sh --bootstrap-server localhost:19092 --topic test-topic
-    ```
-
-- Consume messages
-    ```
-    kafka-console-consumer.sh --bootstrap-server localhost:19092 --topic test-topic --from-beginning
-    ```
-
-    or with specific group
-    ```
-    kafka-console-consumer.sh --bootstrap-server localhost:19092 --topic test-topic --group test-group-cli --from-beginning
-    ```
-
-
 # Kafka Python Client (Simple Producer & Consumer)
 
 - Install the dependencies

@@ -14,7 +14,7 @@
     Ensure the containers are running
 
 
-# Kafka Python Client (Simple Producer & Consumer)
+# Kafka Python Client (Simple Producer & Consumer with transformation)
 
 - Start Your Docker Containers
     ```

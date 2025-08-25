@@ -2,7 +2,7 @@
 
 - Clone the repo
     ```
-    git clone https://github.com/ammfat/apache-kafka-101.git
+    git clone https://github.com/AuzanAsyrafBTJ/auzan-apache-kafka-101.git
     ```
 
 - Create virtual environment

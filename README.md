@@ -1,20 +1,9 @@
-# How to Run
+# Kafka Python Client (Simple Producer & Consumer with transformation)
 
 - Clone the repo
     ```
     git clone https://github.com/ammfat/apache-kafka-101.git
     ```
-
-- Start the docker containers
-    ```
-    docker-compose up -d
-    docker ps
-    ```
-
-    Ensure the containers are running
-
-
-# Kafka Python Client (Simple Producer & Consumer with transformation)
 
 - Start Your Docker Containers
     ```

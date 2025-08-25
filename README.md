@@ -45,10 +45,10 @@
   ```
   A complete Kafka data pipeline demonstrating message production, consumption, transformation, and streaming.
   This project implements a complete data pipeline using Apache Kafka with:
-  **Data Generator**: Produces sample messages with different schemas
-  **Kafka Topics**: Partitioned topics for raw and transformed data
-  **Consumer Transformer**: Processes and enriches messages
-  **Docker Setup**: Containerized Kafka infrastructure
+  Data Generator: Produces sample messages with different schemas
+  Kafka Topics: Partitioned topics for raw and transformed data
+  Consumer Transformer: Processes and enriches messages
+  Docker Setup: Containerized Kafka infrastructure
   ```
 - Data flow
   ```

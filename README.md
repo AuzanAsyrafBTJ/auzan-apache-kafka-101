@@ -10,12 +10,22 @@
     python3 -m venv myenv
     ```
     
+- Run virtual environment
+    ```
+    source myenv/bin/activate
+    ```
+    
+- Start Your Docker Containers
+    ```
+    docker-compose up -d
+    ```
+    
 - Resolve permission
     ```
     sudo chown -R 1001:1001 ./dockervol/kafka
     ```
     
-- Start Your Docker Containers
+- Start Your Docker Containers again
     ```
     docker-compose up -d
     ```
